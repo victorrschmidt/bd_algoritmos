@@ -1,3 +1,3 @@
 # bd_algoritmos
 
-Teste
+Algoritmos em C++.

@@ -1,8 +1,8 @@
 // Algoritmo de Kadane
 
 /*
-Dado um array de inteiros A, o algoritmo verifica a soma máxima de um subarray
-(max subarray sum) de A.
+Dado um array de inteiros A, o algoritmo verifica a
+soma máxima de um subarray (max subarray sum) de A.
 */
 
 #include <bits/stdc++.h>

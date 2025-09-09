@@ -2,6 +2,8 @@
 
 /*
 Dado um array de interos A, o algoritmo gera todas as permutações de A.
+
+Obs: O array A deve estar ordenado.
 */
 
 #include <bits/stdc++.h>

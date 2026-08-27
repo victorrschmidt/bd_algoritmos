@@ -3,17 +3,18 @@
 
 # Dado um array de interos A, o algoritmo gera todos os subconjuntos de A.
 
-a = [1, 2, 3]
+def subsets(arr: list[int]) -> list[int]:
+    subs = []
+    cur = []
 
-subsets = []
-cur = []
+    def search(index: int) -> None:
+        subs.append([*cur])
 
-def search(index: int) -> None:
-    subsets.append([*cur])
+        for i in range(index, len(arr)):
+            cur.append(arr[i])
+            search(i + 1)
+            cur.pop()
 
-    for i in range(index, len(a)):
-        cur.append(a[i])
-        search(i + 1)
-        cur.pop()
+    search(0)
 
-search(0)
+    return subs

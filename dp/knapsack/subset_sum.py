@@ -1,8 +1,8 @@
 # Subset sum
+# O(|A| * W)
 
 # Dado um conjunto A e um inteiro W, o algoritmo verifica se existe algum
 # subconjunto S de A tal que o somatório dos elementos de S é igual a W.
-# O(|A| * W)
 def subset_sum(arr: list[int], w: int) -> bool:
     dp = [False for i in range(w + 1)]
     dp[0] = True

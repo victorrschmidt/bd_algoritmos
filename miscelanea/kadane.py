@@ -1,4 +1,5 @@
 # Algoritmo de Kadane (Max subarray sum)
+# O(N)
 
 # Dado um array de inteiros A, o algoritmo
 # verifica a soma máxima de um subarray de A.

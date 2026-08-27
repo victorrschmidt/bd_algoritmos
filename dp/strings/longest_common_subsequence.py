@@ -1,4 +1,5 @@
 # Longest common subsequence
+# O(|A| * |B|)
 
 # Dadas duas strings A e B, o algoritmo verifica
 # o tamanho da maior subsequência comum a A e B.

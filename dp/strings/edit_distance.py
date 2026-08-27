@@ -1,4 +1,5 @@
 # Edit distance
+# O(|A| * |B|)
 
 # Dadas duas strings A e B, o algoritmo verifica
 # a menor distância de edição entre A e B, isto é:

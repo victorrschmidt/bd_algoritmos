@@ -1,4 +1,5 @@
 # Longest common substring
+# O(|A| * |B|)
 
 # Dadas duas strings A e B, o algoritmo verifica
 # o tamanho da maior substring comum a A e B.

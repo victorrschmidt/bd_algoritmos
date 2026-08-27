@@ -1,4 +1,5 @@
 # Soma de prefixos
+# O(N)
 
 # Dado um array de inteiros A de tamanho N, o algoritmo gera
 # um array P de tamanho N + 1, onde P[i] é definido pela recorrência:

@@ -1,3 +1,3 @@
 # bd_algoritmos
 
-Algoritmos em C++.
+Algoritmos em Python.

@@ -8,7 +8,7 @@
 # parent[v] = pai do vértice v
 
 class BinaryLifting:
-    def __init__(self, parent):
+    def __init__(self, parent: list[int]):
         n = len(parent)
         self.LOG = 0
 
@@ -23,7 +23,7 @@ class BinaryLifting:
             for i in range(1, self.LOG):
                 self.up[v][i] = self.up[self.up[v][i - 1]][i - 1]
 
-    def kth_ancestor(self, v, k):
+    def kth_ancestor(self, v: int, k: int) -> int:
         for i in range(self.LOG):
             if k & (1 << i):
                 v = self.up[v][i]

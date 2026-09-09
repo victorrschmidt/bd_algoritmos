@@ -8,7 +8,6 @@
 # P[i] = P[i-1] + A[i-1]
 
 # Desta forma, é possível calcular a soma de qualquer subarray de A, tal que:
-
 # A[l] + A[l+1] + ... + A[r-1] + A[r] = P[r+1] - P[l]
 
 def prefix_sum(a: list[int]) -> list[int]:

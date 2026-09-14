@@ -5,7 +5,18 @@ Algoritmos em C++ e Python.
 Comandos de compilação:
 
 ## C++
-```g++ -std=c++23 -DLOCAL -O2 -Wall -Wextra -Wshadow -Wconversion -Wfloat-equal -Wduplicated-cond -Wlogical-op main.cpp -o run```
+### Compilação
+```g++ -std=c++20 -DLOCAL -O2 -lm -static -Wall -Wextra -Wshadow -Wconversion -Wduplicated-cond -Wlogical-op -o main```
+
+### Execução (Linux)
+```./main < in.txt```
+
+### Execução (Windows)
+```main.exe < in.txt```
 
 ## Python
-```py main.py```
+### Linux
+```python3 main.py < in.txt```
+
+### Windows
+```py main.py < in.txt```

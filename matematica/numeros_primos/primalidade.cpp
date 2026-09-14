@@ -1,9 +1,15 @@
+// ============================================================================
 // Primalidade
 // O(√N)
+// ============================================================================
 
-// Dado um número inteiro não negativo N, o algoritmo verifica se N é primo.
+/*
 
-bool primo(int n) {
+Dado um número inteiro não negativo N, o algoritmo verifica se N é primo.
+
+*/
+
+bool prime(const int n) {
     if (n < 2) {
         return false;
     }

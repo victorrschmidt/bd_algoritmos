@@ -1,11 +1,17 @@
+// ============================================================================
 // Crivo de Eratóstenes
 // O(N * log(log(N)))
+// ============================================================================
 
-// Dado um número inteiro não negativo N, o algoritmo gera
-// um array booleano de tamanho N + 1 que indica se
-// um número X (0 <= X <= N) é primo (true) ou não (false).
+/*
 
-vector<bool> crivo(int n) {
+Dado um número inteiro não negativo N, o algoritmo gera
+um array booleano de tamanho N + 1 que indica se
+um número X (0 <= X <= N) é primo (true) ou não (false).
+
+*/
+
+vector<bool> sieve(const int n) {
     vector<bool> primes(n + 1, true);
     primes[0] = false;
     primes[1] = false;

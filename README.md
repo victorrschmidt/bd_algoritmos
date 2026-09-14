@@ -1,6 +1,6 @@
 # bd_algoritmos
 
-Algoritmos em C++ e Python.
+Algoritmos em C++.
 
 ## C++
 ### Compilação
@@ -16,15 +16,4 @@ g++ -std=c++20 -DLOCAL -O2 -lm -static -Wall -Wextra -Wshadow -Wconversion -Wlog
 ### Execução (Windows)
 ```bash
 main.exe < in.txt
-```
-
-## Python
-### Linux
-```bash
-python3 main.py < in.txt
-```
-
-### Windows
-```bash
-py main.py < in.txt
 ```

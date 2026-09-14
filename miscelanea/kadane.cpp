@@ -1,8 +1,14 @@
+// ============================================================================
 // Algoritmo de Kadane (Max subarray sum)
 // O(N)
+// ============================================================================
 
-// Dado um array de inteiros A, o algoritmo
-// verifica a soma máxima de um subarray de A.
+/*
+
+Dado um array de inteiros A, o algoritmo
+verifica a soma máxima de um subarray de A.
+
+*/
 
 int max_subarray_sum(const vector<int>& a) {
     int cur = a[0];

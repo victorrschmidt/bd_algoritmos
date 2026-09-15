@@ -10,7 +10,7 @@ verifica a soma máxima de um subarray de A.
 
 */
 
-int max_subarray_sum(const vector<int>& a) {
+int maxSubarraySum(vector<int>& a) {
     int cur = a[0];
     int mx = a[0];
 

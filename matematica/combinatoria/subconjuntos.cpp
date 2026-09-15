@@ -10,7 +10,7 @@ o algoritmo gera todos os subconjuntos de A.
 
 */
 
-void process_subsets(const int a) {
+void processSubsets(int a) {
     int b = 0;
     do {
         // Processar subconjunto

@@ -16,8 +16,8 @@ A[l] + A[l+1] + ... + A[r-1] + A[r] = P[r+1] - P[l]
 
 */
 
-vector<int> prefix_sum(const vector<int>& a) {
-    const int n = a.size();
+vector<int> prefixSum(vector<int>& a) {
+    int n = a.size();
     vector<int> pref(n + 1);
 
     for (int i = 1; i <= n; i++) {

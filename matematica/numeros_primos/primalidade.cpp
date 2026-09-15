@@ -9,7 +9,7 @@ Dado um número inteiro não negativo N, o algoritmo verifica se N é primo.
 
 */
 
-bool prime(const int n) {
+bool prime(int n) {
     if (n < 2) {
         return false;
     }

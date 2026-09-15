@@ -11,7 +11,7 @@ um número X (0 <= X <= N) é primo (true) ou não (false).
 
 */
 
-vector<bool> sieve(const int n) {
+vector<bool> sieve(int n) {
     vector<bool> primes(n + 1, true);
     primes[0] = false;
     primes[1] = false;

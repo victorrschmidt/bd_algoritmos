@@ -11,7 +11,7 @@ um array P de tamanho N + 1, onde P[i] é definido pela recorrência:
 P[0] = 0
 P[i] = P[i-1] + A[i-1]
 
-Desta forma, é possível calcular a soma de qualquer subarray de A, tal que:
+Dessa forma, é possível calcular a soma de qualquer subarray de A, tal que:
 A[l] + A[l+1] + ... + A[r-1] + A[r] = P[r+1] - P[l]
 
 */
